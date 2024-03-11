@@ -44,7 +44,7 @@ const App: React.FC = () => {
     };
 
     // Construindo a URL da API
-    const apiUrl = 'http://6288144910e93797c1564f40.mockapi.io/api/v1/product';
+    const apiUrl = 'https://6288144910e93797c1564f40.mockapi.io/api/v1/product';
 
     // Enviando os dados para a API no corpo da requisição POST
     axios.post(apiUrl, data)

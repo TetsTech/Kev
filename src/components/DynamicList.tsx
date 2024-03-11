@@ -75,7 +75,7 @@ const DynamicList = () => {
       "brand": formData.marca,
     };
 
-    const apiUrl = `http://6288144910e93797c1564f40.mockapi.io/api/v1/product/${productId}`;
+    const apiUrl = `https://6288144910e93797c1564f40.mockapi.io/api/v1/product/${productId}`;
     axios.put(apiUrl, config)
       .then(response => {
         console.log('Resposta da API:', response.data);
@@ -93,7 +93,7 @@ const DynamicList = () => {
   };
 
   const deleteProduct = (productIdToDelete: number) => {
-    const apiUrl = `http://6288144910e93797c1564f40.mockapi.io/api/v1/product/${productIdToDelete}`;
+    const apiUrl = `https://6288144910e93797c1564f40.mockapi.io/api/v1/product/${productIdToDelete}`;
     axios.delete(apiUrl)
       .then(response => {
         console.log('Resposta da API:', response.data);
