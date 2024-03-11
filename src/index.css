@@ -1,0 +1,267 @@
+.BackgroundTitle {
+  position: absolute;
+  width: 100%;
+  height: 73px;
+  left: 0;
+  top: 0;
+  margin-bottom: 2;
+  background: #530083;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.BackgroundTitle h1 {
+  position: absolute;
+  left: 76px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+h2 {
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+
+
+}
+
+
+
+.AdcProductButton {
+  border-width: 0;
+  margin-left: 3%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration-line: underline;
+  color: #530083;
+  background-color: transparent;
+  margin-top: 5%;
+}
+
+.Confirm{
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration-line: underline;
+  color: #530083;
+}
+
+
+
+  .Container{
+  position: absolute;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto auto auto;
+  margin-top: 1%;
+  background-color: transparent;
+  margin-left: 60px;
+
+
+
+  }
+
+  .Card {
+  align-items: center;
+  width: 237px;
+  height: 304px;
+
+  padding: 30px;
+  justify-items: center;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  transition: ease-out;
+  }
+
+  .ImageProduct {
+  width: 220px;
+  block-size: 150px;
+  border-radius: 10px;
+
+  }
+
+  .ProductName {
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+
+  color: #000000;
+
+
+  }
+
+  .BrandName{
+    
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+
+  color: #000000;
+
+  }
+
+  .ProductPrice {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+  
+    color: #000000;
+  }
+
+  .Edit {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  float: left;
+  background-color: transparent;
+  border:0 ;
+
+
+  color: #CE7C01;
+  }
+
+    
+  .Remove{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  float: right;
+  background-color: transparent;
+  border:0 ;
+
+  color: #CE0301;
+  }
+
+
+  .ReactModal__Overlay {
+    opacity: 0.8;
+    transition: opacity 300ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+  }
+
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+
+  .ReactModal__Content {
+    position: absolute;
+    padding: 20px;
+    max-width: 237px;
+    max-height: 304px;
+    margin-top: 12%;
+    margin-left:41%;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .ModalForm input{
+
+    width: 100%;
+    height: 34px;    
+    padding-left: 5px;
+    box-sizing: border-box;
+    transform: matrix();
+    margin-top: 20px;
+    border-radius: 12px;
+  }
+
+  .ModalForm button{
+
+    position:absolute;
+    background-color: #FFFFFF;
+    border-width: 0;
+    margin-top: 10%;
+    margin-bottom: 30%;
+  
+    margin-inline-start: 48%;
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: underline;
+
+  }
+
+  h2{ 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+  }
+
+
+  @media (max-width: 790px){
+    .BackgroundTitle{
+
+      width: 100%;
+    }
+
+    .BackgroundTitle h1{
+      position: relative;
+      text-align: center;
+      left: 0;
+
+    }
+    
+    .Container{
+      text-align: center;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: auto;
+      text-align: center;
+      margin-top: 5%;
+    
+      }
+
+      .AdcProductButton{
+        justify-content: center;
+        margin-top: 20%;
+        text-align: center;
+      }
+  }   
